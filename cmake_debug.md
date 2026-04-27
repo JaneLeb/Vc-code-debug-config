@@ -53,6 +53,7 @@
    
    Как только вы сохраните CMakeLists.txt, VS Code сам предложит настроить проект. Если нет:
    Нажмите Ctrl+Shift+P -> CMake: Configure.
+   Нажмите Ctrl + Shift + P и введите CMake: Select a Kit
    Выберите Kit (компилятор): выберите вашу версию Visual Studio (обычно с пометкой amd64 или x86).
 
 <img width="1036" height="382" alt="image" src="https://github.com/user-attachments/assets/233bb053-c0c8-4b58-802a-bae4e179c3ce" />
@@ -63,8 +64,9 @@
 5.  Проверка режима Debug
 
    
-   Посмотрите на нижнюю синюю полоску. Там должно быть написано CMake: [Debug]: Ready.
-   Если написано [Release], нажмите на это слово и выберите Debug в выпадающем списке. Без этого точки остановки (breakpoints) не будут работать.
+   Внизу на синей панели убедитесь, что выбрано CMake: [Debug]. Если написано [Release], кликните и поменяйте на Debug. Без этого точки остановки (breakpoints) не будут работать.
+   В списке выберите Visual Studio Build Tools - x86 (или amd64).
+
 
 <img width="1370" height="730" alt="image" src="https://github.com/user-attachments/assets/80d95a28-d5ea-49dd-9293-25905dba7458" />
 
