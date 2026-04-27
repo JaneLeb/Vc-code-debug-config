@@ -30,6 +30,14 @@
 
 2. Создание файла CMakeLists.txt
   В корне папки создайте файл CMakeLists.txt и вставьте этот стандартный шаблон:
+
+cmake
+cmake_minimum_required(VERSION 3.10)
+project(MyNewProject)
+
+# Просто перечисляем все ваши .c файлы через пробел
+add_executable(my_app main.c) 
+Используйте код с осторожностью.
     cmake_minimum_required(VERSION 3.10) project(ИмяВашегоПроекта)
    
     #Просто перечисляем все ваши .c файлы через пробел
