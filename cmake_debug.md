@@ -1,6 +1,4 @@
-  
-
-
+ПОШАГОВЫЙ ГАЙД ДЛЯ WINDOWS.
 1. Установка базовых инструментов.
    
       Прежде всего, нужны сами инструменты для сборки кода (компилятор). VS Code сам по себе — это просто текстовый редактор.
@@ -23,11 +21,6 @@
       -CMake Tools (от Microsoft) — для автоматизации сборки.
    <img width="1192" height="352" alt="image" src="https://github.com/user-attachments/assets/96a59a8d-0ace-4bac-ad50-b425865713a3" />
 
-
-
-
-
-
 ЧЕК ЛИСТ ДЛЯ СОЗДАНИЯ ПРОЕКТА:
 
 1. Создание папки и кода
@@ -37,9 +30,9 @@
 
 2. Создание файла CMakeLists.txt
   В корне папки создайте файл CMakeLists.txt и вставьте этот стандартный шаблон:
-
-
-    cmake_minimum_required(VERSION 3.10) project(ИмяВашегоПроекта) #Просто перечисляем все ваши .c файлы через пробел add_executable(my_program main.c)
+    cmake_minimum_required(VERSION 3.10) project(ИмяВашегоПроекта)
+    #Просто перечисляем все ваши .c файлы через пробел
+    add_executable(my_program main.c)
 
 
 
