@@ -3,14 +3,13 @@
 1. Установка базовых инструментов
 Прежде всего, нужны сами инструменты для сборки кода (компилятор). VS Code сам по себе — это просто текстовый редактор.
 
-Visual Studio Build Tools: Скачайте Visual Studio Installer.
-https://visualstudio.microsoft.com/ru/downloads/
-
-При установке выберите рабочую нагрузку «Разработка классических приложений на C++».
-Это установит компилятор cl.exe и нужные библиотеки.
-
-CMake: Скачайте и установите CMake (выберите Windows x64 Installer).https://cmake.org/download/
-При установке обязательно выберите опцию «Add CMake to the system PATH» (для всех пользователей).
+      -Visual Studio Build Tools: Скачайте Visual Studio Installer.
+      https://visualstudio.microsoft.com/ru/downloads/      
+      При установке выберите рабочую нагрузку «Разработка классических приложений на C++».
+      Это установит компилятор cl.exe и нужные библиотеки.
+      
+      -CMake: Скачайте и установите CMake (выберите Windows x64 Installer).https://cmake.org/download/
+      При установке обязательно выберите опцию «Add CMake to the system PATH» (для всех пользователей).
 
 2. Подготовка VS Code
 Откройте пустой VS Code и установите два обязательных расширения через иконку «квадратиков» (Extensions):
@@ -18,19 +17,22 @@ C/C++ (от Microsoft) — для подсветки кода и дебага.
 CMake Tools (от Microsoft) — для автоматизации сборки.
 
 
-Вот ваш чек-лист для создания нового проекта с нуля, чтобы дебаг работал сразу:
+ЧЕК ЛИСТ ДЛЯ СОЗДАНИЯ ПРОЕКТА:
 
 1. Создание папки и кода
-Создайте новую пустую папку для проекта.
-Откройте её в VS Code (через терминал: code . или через меню File -> Open Folder).
-Создайте ваши файлы с кодом (например, main.c).
+  Создайте новую пустую папку для проекта.
+  Откройте её в VS Code (через терминал: code . или через меню File -> Open Folder).
+  Создайте ваши файлы с кодом (например, main.c).
 
 2. Создание файла CMakeLists.txt
-В корне папки создайте файл CMakeLists.txt и вставьте этот стандартный шаблон:
+  В корне папки создайте файл CMakeLists.txt и вставьте этот стандартный шаблон:
 
-cmake_minimum_required(VERSION 3.10)
-project(ИмяВашегоПроекта)
-add_executable(my_program main.c) # Просто перечисляем все ваши .c файлы через пробел
+    cmake_minimum_required(VERSION 3.10)
+    
+    project(ИмяВашегоПроекта)
+    
+    add_executable(my_program main.c)
+    # Просто перечисляем все ваши .c файлы через пробел
 
 <img width="956" height="360" alt="cmake1" src="https://github.com/user-attachments/assets/b3861a03-6736-4d2a-8c1d-d045f2378d25" />
 
