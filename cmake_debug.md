@@ -39,10 +39,7 @@
   В корне папки создайте файл CMakeLists.txt и вставьте этот стандартный шаблон:
 
 
-        ПОШАГОВЫЙ ГАЙД ДЛЯ WINDOWS.    cmake_minimum_required(VERSION 3.10)    
-    project(ИмяВашегоПроекта)
-    #Просто перечисляем все ваши .c файлы через пробел  
-    add_executable(my_program main.c)
+    cmake_minimum_required(VERSION 3.10) project(ИмяВашегоПроекта) #Просто перечисляем все ваши .c файлы через пробел add_executable(my_program main.c)
 
 
 
