@@ -23,6 +23,8 @@
    
    <img width="1192" height="352" alt="image" src="https://github.com/user-attachments/assets/96a59a8d-0ace-4bac-ad50-b425865713a3" />
 
+   
+
 ЧЕК ЛИСТ ДЛЯ СОЗДАНИЯ ПРОЕКТА:
 
 1. Создание папки и кода
@@ -44,12 +46,16 @@
 <img width="956" height="360" alt="cmake1" src="https://github.com/user-attachments/assets/b3861a03-6736-4d2a-8c1d-d045f2378d25" />
 
 
+
+
 3. Первичная настройка (Configure)
    Как только вы сохраните CMakeLists.txt, VS Code сам предложит настроить проект. Если нет:
    Нажмите Ctrl+Shift+P -> CMake: Configure.
    Выберите Kit (компилятор): выберите вашу версию Visual Studio (обычно с пометкой amd64 или x86).
 
 <img width="1036" height="382" alt="image" src="https://github.com/user-attachments/assets/233bb053-c0c8-4b58-802a-bae4e179c3ce" />
+
+
 
 
 5. Проверка режима Debug
@@ -59,6 +65,8 @@
 <img width="1370" height="730" alt="image" src="https://github.com/user-attachments/assets/80d95a28-d5ea-49dd-9293-25905dba7458" />
 
 
+
+
 7. Сборка и запуск
    Нажмите на кнопку Build в нижней панели (чтобы убедиться, что код компилируется).
    Поставьте точку остановки в коде.
@@ -66,6 +74,8 @@
    Если не запустится — нажмите Ctrl+Shift+P  (выберите там в выпадающем списке "CMake/Build").
 
 <img width="1366" height="742" alt="image" src="https://github.com/user-attachments/assets/ebde142b-e9b4-4138-ae04-160018ac791b" />
+
+
 
 
 9. Отладка
