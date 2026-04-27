@@ -1,4 +1,8 @@
-         Просто перечисляем все ваши .c файлы через пробел
+         #Просто перечисляем все ваши .c файлы через пробел   
+    cmake_minimum_required(VERSION 3.10)    
+    project(ИмяВашегоПроекта)    
+    add_executable(my_program main.c)
+
         ПОШАГОВЫЙ ГАЙД ДЛЯ WINDOWS.
 
 1. Установка базовых инструментов.
@@ -39,11 +43,6 @@
   В корне папки создайте файл CMakeLists.txt и вставьте этот стандартный шаблон:
 
 
-   cmake_minimum_required(VERSION 3.10)
-    
-    project(ИмяВашегоПроекта)
-    
-    add_executable(my_program main.c)
 
 
 <img width="956" height="360" alt="cmake1" src="https://github.com/user-attachments/assets/b3861a03-6736-4d2a-8c1d-d045f2378d25" />
