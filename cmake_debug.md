@@ -16,10 +16,14 @@
       Откройте пустой VS Code и установите два обязательных расширения через иконку «квадратиков» (Extensions):
    
       -C/C++ (от Microsoft) — для подсветки кода и дебага.
-   ![Uploading image.png…]()
+   <img width="1068" height="358" alt="image" src="https://github.com/user-attachments/assets/c006da7f-64c0-4fc1-b847-6a1f2e0c3d3f" />
+
 
       -CMake Tools (от Microsoft) — для автоматизации сборки.
-   ![Uploading image.png…]()
+   <img width="1192" height="352" alt="image" src="https://github.com/user-attachments/assets/96a59a8d-0ace-4bac-ad50-b425865713a3" />
+
+
+
 
 
 
