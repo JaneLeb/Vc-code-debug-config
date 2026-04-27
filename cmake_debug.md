@@ -1,6 +1,7 @@
-         #Просто перечисляем все ваши .c файлы через пробел   
+  
     cmake_minimum_required(VERSION 3.10)    
-    project(ИмяВашегоПроекта)    
+    project(ИмяВашегоПроекта)
+    #Просто перечисляем все ваши .c файлы через пробел  
     add_executable(my_program main.c)
 
         ПОШАГОВЫЙ ГАЙД ДЛЯ WINDOWS.
