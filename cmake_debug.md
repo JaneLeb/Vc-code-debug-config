@@ -128,32 +128,34 @@
 1. Установка инструментов (через терминал)
 В Linux всё ставится одной командой. Откройте терминал и введите:
 <br>
-bash
-sudo apt update
-sudo apt install build-essential cmake gdb
+
+      sudo apt update
+   
+      sudo apt install build-essential cmake gdb
+   
 <br>
-build-essential — установит компилятор gcc и инструменты сборки.
+build-essential — установит компилятор gcc и инструменты сборки.<br>
 
-cmake — сам сборщик.
+cmake — сам сборщик.<br>
 
-gdb — отладчик (аналог того, что мы настраивали на Windows).
+gdb — отладчик (аналог того, что мы настраивали на Windows).<br>
 
 <br>
 3. Настройка VS Code
 
 Установите те же два расширения:
 
-C/C++ (Microsoft).
-CMake Tools (Microsoft).
+   -C/C++ (Microsoft).
+   -CMake Tools (Microsoft).
 
 <br>
 4. Создание проекта
 
 Создайте папку и файл CMakeLists.txt точно так же, как на Windows. Содержимое файла абсолютно идентично:
-cmake
-cmake_minimum_required(VERSION 3.10)
-project(LinuxProject)
-add_executable(my_app main.c)
+
+      cmake_minimum_required(VERSION 3.10)<br>
+      project(LinuxProject)<br>
+      add_executable(my_app main.c)<br>
 
 <br>
 5. Настройка (Configure)
