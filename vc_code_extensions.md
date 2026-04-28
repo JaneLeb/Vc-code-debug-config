@@ -1,22 +1,4 @@
-C/C++ (от Microsoft): База для кода и дебага.
-
-C/C++ Advanced Lint: Хорошо, будет подсказывать по качеству кода.
-
-C/C++ DevTools: Пускай будет, помогает в навигации.
-
-Makefile Tools: Самое важное для школы.
-
-Error Lens: Ваши «глаза» для мгновенного поиска ошибок.
-
-Indent Rainbow: Порядок во вложенности.
-
-CodeMetrics: Контроль сложности по Дейкстре.
-
-TODO Tree: Ваш список задач.
-
-Docker / Dev Containers: Для работы с mini-verter.
-
-
+# ПОЛЕЗНЫЕ РАСШИРЕНИЯ VC CODE ДЛЯ ШКОЛЫ 21
 <img width="775" height="287" alt="image" src="https://github.com/user-attachments/assets/a02a2a8f-8e3c-4c52-a603-3da7e40d16cd" />
 Indent Rainbow ( Для работы с вложенностью )
 
